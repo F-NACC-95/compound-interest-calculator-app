@@ -6,8 +6,25 @@
     <link rel="stylesheet" href="./styles.css" type="text/css">
 </head>
 <body>
-    <div>
-        <h1>Compound Interest Calculator App</h1>
+    <h1>Calculate Your Potential Savings After Compound Interest...</h1>
+    <form id="calculate__interest__form" onsubmit="calculate__savings()">
+        <input type="number" id="principal">
+        <label for="principal">Principal</label>
+        <br>
+        <input type="number" id="yearly__addition">
+        <label for="yearly__addition">Yearly Addition</label>
+        <br>
+        <input type="number" id="years__to__grow">
+        <label for="years__to__grow">Years To Grow</label>
+        <br>
+        <input type="number" id="interest__rate">
+        <label for="interest__rate">Interest Rate</label>
+        <br>
+        <input type="submit">    
+    </form>
+    <div class="result__div">
+        <h4>Result:</h4>
+        <h4 id="result">0</h4>
     </div>
 </body>
 <script src="./main.js"></script>

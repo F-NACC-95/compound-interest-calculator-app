@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: #dae1ef;
+}
+
+body {
+    width: 70vw;
+    margin: auto;
+    background-color: #edeff2;
+}
+
+h1, h4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+#calculate__interest__form {
+    width: 80%;
+    margin: auto;
+}
+
+#calculate__interest__form input {
+    margin-bottom: 2rem;
+}
+
+.result__div {
+    display: flex;
+}
